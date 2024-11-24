@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monomaniac+One&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+    <title>Chhay | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/Chhay_Logo.ico">
+    <script src="https://kit.fontawesome.com/276f53de02.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none;">
+            <div class="logo"><span class="logo-span">Chhay </span> | Data Scientist</div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="currentNav">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact">
+        <div class="contact-header">
+            <p class="title-contact">Get in touch</p>
+            <a href="mailto:example@gmail.com" class="email-contact" style="text-decoration: none;">Email: <span class="email" style="color: #FBBC05;">kimleangchhay.song.321@gmail.com</span></a>
+            <p class="fill-in">Or fill in the form</p>
+        </div>
+        <div class="contact-form">
+            <form id="contact-form" action="https://formspree.io/f/mbljakkk" method="POST" onsubmit="document.getElementById('thank-you').style.display='block';">
+                <div class="inner-form-container">
+                    <label for="name">Your Name</label><br>
+                    <input type="text" name="Name" id="name" placeholder="Type your Name">
+                </div>
+                <div class="inner-form-container">
+                    <label for="email">Your Email</label><br>
+                    <input type="email" name="Email" id="email" placeholder="Type your Email" required>
+                </div>
+                <div class="inner-form-container">
+                    <label for="message">Your Message</label><br>
+                    <textarea name="Message" id="message" placeholder="Type your Message" required></textarea>
+                </div>
+                <div class="inner-form-container submit-reset-container">
+                    <input type="submit" id="submit-btn" class="submit" value="Send Message">
+                    <input type="reset" value="Reset" class="reset">
+                </div>
+            </form>
+        </div>
+    </main>
+    <p id="thank-you" style="display:none; color: rgb(5, 255, 5); font-weight: bold;">
+        Thank you for your message!
+    </p>
+    <footer class="contact">
+        <div class="social-contact-container">
+            <div class="contact-page-social-icons social-container">
+                <a href="https://www.linkedin.com/in/kimleangchhay-song-06a897293/" target="_blank"><i class="fa fa-linkedin-square social-symbols" aria-hidden="true"></i></a>
+                <a href="https://github.com/Leangchhay1523" target="_blank"><i class="fa fa-github social-symbols" aria-hidden="true"></i></a>
+                <a href="https://web.facebook.com/ZH.Chhay.Z/" target="_blank"><i class="fa fa-facebook-official social-symbols" aria-hidden="true"></i></a>
+                <a href="https://x.com/LeangChhay1523" target="_blank"><i class="fa fa-twitter-square social-symbols" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <p class="copyright">&#169 2024 Song Kimleangchhay - All right reserved</p>
+    </footer>
+</body>
+</html>

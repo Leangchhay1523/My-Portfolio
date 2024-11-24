@@ -1,0 +1,15 @@
+#PortfolioBranding
+##Font
+1st:InriaSans
+```html
+<linkrel="preconnect"href="https://fonts.googleapis.com">
+<linkrel="preconnect"href="https://fonts.gstatic.com"crossorigin>
+<linkhref="https://fonts.googleapis.com/css2?family=Concert+One&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monomaniac+One&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap"rel="stylesheet">
+```
+##Color
+Primary:#FBBC05
+Secondary:#0065FF
+Titery:#ffffff
+###Elements
+img-background-style:#1731B7-Opacity:75%-rgba(23,49,183,0.75)
+img-border-style:#1731B7-Opacity:50%-rgba(23,49,183,0.50)
